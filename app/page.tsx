@@ -14,6 +14,9 @@ import {
 import { enGB } from "date-fns/locale";
 
 export default function Home() {
+  const testVar = process.env.NEXT_PUBLIC_TEST_VAR;
+  console.log("testVar", testVar);
+
   const [date, setDate] = useState<{
     day: string;
     month: string;
