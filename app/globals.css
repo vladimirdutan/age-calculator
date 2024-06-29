@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: hsl(0, 0%, 94%);
+}
+
+.error-text {
+  color: hsl(0, 100%, 67%);
+}
+
+.primary-color {
+  color: hsl(259, 100%, 65%);
+}
