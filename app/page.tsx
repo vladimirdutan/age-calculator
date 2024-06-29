@@ -184,7 +184,7 @@ export default function Home() {
     <div className="flex items-center size-full justify-center px-5 md:px-0">
       <div className=" bg-white rounded-t-3xl px-6 py-16  md:p-12 rounded-bl-3xl rounded-br-[175px]">
         {/* INPUTS CONTAINER */}
-        <div className="flex space-x-8">
+        <div className="flex space-x-4 md:space-x-8">
           {/* DAY INPUT */}
           <div className="flex flex-col space-y-2">
             <span
