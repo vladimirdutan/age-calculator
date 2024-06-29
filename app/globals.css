@@ -15,3 +15,11 @@ body {
 .primary-color {
   color: hsl(259, 100%, 65%);
 }
+
+input:focus, input.form-control:focus {
+  outline:none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}

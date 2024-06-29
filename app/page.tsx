@@ -178,7 +178,7 @@ export default function Home() {
 
   const errorLabelClass = `font-normal text-xs error-text text-sm italic`;
 
-  const inputClass = ` py-2 px-6 flex w-full md:w-[140px] font-bold text-[25px] md:text-[32px] focus:outline-primary caret-primary`;
+  const inputClass = ` py-2 px-3 md:px-6 flex w-full md:w-[140px] font-bold text-[25px] md:text-[32px] focus:outline-primary caret-primary`;
 
   return (
     <div className="flex items-center size-full justify-center px-5 md:px-0">
